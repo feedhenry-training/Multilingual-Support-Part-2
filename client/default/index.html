@@ -1,0 +1,92 @@
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/theme.css" />
+
+  <div id="wrapper">
+    <div id="header">
+        <div id="logo">
+          <img src="img/logo.png"/>
+        </div>
+
+      <div id="menu">
+      <div class="nav_item button_active">
+        <a href="#tab1" class="nav_target"></a>
+        <h2 id="menu_welcome"></h2>
+      </div>
+      
+      <div class="nav_item">
+        <a href="#tab2" class="nav_target"></a>
+        <h2 id="menu_form"></h2>
+      </div>
+
+      <div class="nav_item">
+        <a href="#tab3" class="nav_target"></a>        
+        <h2 id="menu_placeholders"></h2>
+      </div>
+      
+      <div class="nav_item" id="cloudDataTab">
+        <a href="#tab4" class="nav_target"></a>        
+        <h2 id="menu_special_chars"></h2>
+      </div>      
+     </div>
+    </div>
+
+    <div id="content">
+      <div id="tab1" class="main_view default">
+      	
+		</select>
+      	<h1 id="app_heading"></h1>
+		<p id="app_introduction"></p>
+		<h2 id="app_about_fh_heading"></h2>
+		<p id="app_about_fh"></p>
+      </div>
+      <div id="tab2" class="main_view">
+      		<form>
+      			<label id="label_name" for="input_name"></label><input type="text" id="input_name" name="name" /><br />
+				<label id="label_email" for=""></label><input type="text" id="input_email" name="email" /><br />
+				
+				
+				<label id="label_male" for="radio_male"></label><input type="radio" name="sex" id="radio_male" value="male" /><br /> 
+				<label id="label_female" for="radio_female"></label><input type="radio" name="sex" id="radio_female" value="female" /><br />
+
+				<label id="label_newsletter" for="check_newsletter"></label><input type="checkbox" name="newsletter" id="check_newsletter" value="newsletter" /><br />
+      		</form>
+      </div>
+      <div id="tab3" class="main_view">
+      </div>
+      <div id="tab4" class="main_view">
+      </div>      
+    </div>
+
+    <div id="footer">
+      <!-- An optional language picker dropdown -->
+	  <form id="fh_lang">
+	  	<label for="fh_lang_picker" id="label_language"></label>
+      	<select id="fh_lang_picker" onchange="changeLanguage(this)">
+	  </form>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="hidden">
+ 
+  </div>
+
+  <script type="text/javascript" src="config.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/util.js"></script>
+  
+  <!-- Language picker code -->
+  <script type="text/javascript" src="js/utils_lang.js"></script>
+  
+  <!-- Includes from Shared -->
+  <script type="text/javascript" src="lang/en_gb.js"></script>
+  <script type="text/javascript" src="lang/en_ie.js"></script>
+  <script type="text/javascript" src="lang/en_us.js"></script>
+  <script type="text/javascript" src="lang/fr.js"></script>
+  <script type="text/javascript" src="utils_lang_shared.js"></script>
+  
+  
+  
+  
